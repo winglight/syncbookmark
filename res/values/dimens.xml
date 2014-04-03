@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<dimen name = "normal_height">20dip</dimen>
+	
+    <dimen name = "expanded_height">55dip</dimen>
+    
+</resources>

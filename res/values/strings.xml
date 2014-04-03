@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Favekeeper</string>
+    <string name="account">Account</string>
+    <string name="share">Share</string>
+    <string name="shareSubject">Share a wonderful tool, Favekeeper</string>
+    <string name="shareBody">#Favekeeper is a wonderful tool to sync your bookmarks over browsers and devices.\n Web site: http://www.favekeeper.com/ </string>
+    <string name="about">About</string>
+    <string name="settingTitle">Favekeeper - login</string>
+    <string name="user">User name:</string>
+    <string name="password">Password:</string>
+    <string name="getAccount">Get Free Account</string>
+    <string name="loadingBookmark">Connecting server…</string>
+	<string name="connectSucess">Online</string>
+	<string name="connectFail">Offline : %1$s</string>
+	<string name="downloading">Syncing...</string>
+	<string name="buildingtree">Refreshing...</string>
+</resources>

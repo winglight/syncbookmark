@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:treeView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/statusPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@android:color/white"
+        android:gravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            />
+
+        <TextView
+            android:id="@+id/statusTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loadingBookmark" 
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+        
+    </LinearLayout>
+
+    <pl.polidea.treeview.TreeViewList
+        android:id="@+id/bookmarkList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        android:smoothScrollbar="true"
+        android:background="@android:color/white"
+        treeView:indicator_gravity="right|center_vertical" />
+
+</LinearLayout>
